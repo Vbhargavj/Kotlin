@@ -11,7 +11,7 @@ class My{
             else println("Number is zero")
 
 //            when like switch
-            when(num){
+          /*  when(num){
                 1-> println("1")
                 0-> println("0 is string")
 //                (num>10)-> println("Ss")===> give u error
@@ -20,10 +20,10 @@ class My{
             when {
                 num>10 -> println("This is bhargav")
                 num<10 -> println("Note ")
-            }
+            }*/
 
 //            FOR LOOP
-            for (i in 0..100 step 5){
+            /*for (i in 0..100 step 5){
                 println(num++)
             }
             for (i in 10 downTo -10)
@@ -55,7 +55,18 @@ class My{
             do {
                 i--
                 println(i)
-            }while (i!=0)
+            }while (i!=0)*/
+
+            val a=Pair("bhargav",12)
+            println(a.first)
+            println(a.second)
+
+            val (v,b)=Pair("vbj","bhargav")
+            println(v)
+            println(b)
+
+            val p=Triple("yes",Triple("a","b","c"),12)
+            println(p)
 
         }
 
